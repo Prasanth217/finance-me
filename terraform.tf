@@ -31,7 +31,7 @@ resource "aws_internet_gateway" "prasanth_igw" {
   }
 }
 
-resource "aws_route_table" "suhel_route_table" {
+resource "aws_route_table" "prasanth_route_table" {
   vpc_id = aws_vpc.prasanth_vpc.id
   tags = {
     Name = "prasanth-route-table"
